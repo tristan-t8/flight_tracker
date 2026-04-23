@@ -8,6 +8,8 @@ A Big Data flight tracking and analytics system that collects live flight data f
 
 The system ingests ~8,000 live flights every 60 seconds, stores them as compressed Parquet snapshots, runs batch analytics with PySpark, and serves everything through a FastAPI backend to a React + Mapbox frontend.
 
+![alt text](docs/react-flight-tracker_prview.gif)
+
 **Highlights:**
 - ~1.9 million flight records across 243 Parquet snapshots
 - Airline rankings, peak traffic hours, geographic distribution, and altitude patterns
